@@ -1,0 +1,3 @@
+- small breadboard 400
+- jumper wires
+- dupont wires
