@@ -1,0 +1,4607 @@
+{
+  "episode_id": "episode_20250927_192954",
+  "start_time": 1758997801.282708,
+  "end_time": 1758997809.1467564,
+  "duration": 7.864047288894653,
+  "metadata": {
+    "camera_fps": 30,
+    "camera_resolution": [
+      640,
+      480
+    ],
+    "arduino_port": "/dev/ttyACM0",
+    "total_control_samples": 345,
+    "total_frames": 227,
+    "avg_control_rate": 43.87053985384823,
+    "avg_frame_rate": 28.8655436139813
+  },
+  "control_samples": [
+    {
+      "arduino_timestamp": 33,
+      "system_timestamp": 1758997801.2831593,
+      "steering_normalized": 0.0,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 0,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 66,
+      "system_timestamp": 1758997801.2834544,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 99,
+      "system_timestamp": 1758997801.283737,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 132,
+      "system_timestamp": 1758997801.2840528,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 165,
+      "system_timestamp": 1758997801.28434,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 198,
+      "system_timestamp": 1758997801.284625,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 231,
+      "system_timestamp": 1758997801.2849147,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 264,
+      "system_timestamp": 1758997801.2852006,
+      "steering_normalized": 0.2043,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1596,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 297,
+      "system_timestamp": 1758997801.2854867,
+      "steering_normalized": 0.1971,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21292,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 330,
+      "system_timestamp": 1758997801.2857738,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 363,
+      "system_timestamp": 1758997801.2860649,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 396,
+      "system_timestamp": 1758997801.2863526,
+      "steering_normalized": 0.1888,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 429,
+      "system_timestamp": 1758997801.2866423,
+      "steering_normalized": 0.1882,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 462,
+      "system_timestamp": 1758997801.286931,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 495,
+      "system_timestamp": 1758997801.2874887,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 528,
+      "system_timestamp": 1758997801.2877834,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 561,
+      "system_timestamp": 1758997801.2880886,
+      "steering_normalized": 0.1888,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 594,
+      "system_timestamp": 1758997801.2883785,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 627,
+      "system_timestamp": 1758997801.2886932,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 660,
+      "system_timestamp": 1758997801.2889907,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 693,
+      "system_timestamp": 1758997801.2892923,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 726,
+      "system_timestamp": 1758997801.2895777,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 759,
+      "system_timestamp": 1758997801.2898617,
+      "steering_normalized": 0.1971,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21292,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 792,
+      "system_timestamp": 1758997801.2901623,
+      "steering_normalized": 0.1888,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 825,
+      "system_timestamp": 1758997801.290449,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 858,
+      "system_timestamp": 1758997801.2907374,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 891,
+      "system_timestamp": 1758997801.2910244,
+      "steering_normalized": 0.1971,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21292,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 924,
+      "system_timestamp": 1758997801.2913237,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 957,
+      "system_timestamp": 1758997801.2916107,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 990,
+      "system_timestamp": 1758997801.2919445,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1024,
+      "system_timestamp": 1758997801.2922447,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1057,
+      "system_timestamp": 1758997801.2925396,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1090,
+      "system_timestamp": 1758997801.2928348,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1123,
+      "system_timestamp": 1758997801.2932737,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1156,
+      "system_timestamp": 1758997801.293574,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1189,
+      "system_timestamp": 1758997801.2938685,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1222,
+      "system_timestamp": 1758997801.2941632,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1255,
+      "system_timestamp": 1758997801.2944722,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1288,
+      "system_timestamp": 1758997801.29477,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1321,
+      "system_timestamp": 1758997801.2950654,
+      "steering_normalized": 0.1882,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1354,
+      "system_timestamp": 1758997801.2953587,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1387,
+      "system_timestamp": 1758997801.2956576,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1420,
+      "system_timestamp": 1758997801.2959607,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1453,
+      "system_timestamp": 1758997801.2962556,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1486,
+      "system_timestamp": 1758997801.2965631,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1519,
+      "system_timestamp": 1758997801.296858,
+      "steering_normalized": 0.1882,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1552,
+      "system_timestamp": 1758997801.2971518,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1585,
+      "system_timestamp": 1758997801.2974477,
+      "steering_normalized": 0.1888,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1618,
+      "system_timestamp": 1758997801.2977464,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1651,
+      "system_timestamp": 1758997801.2980409,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1684,
+      "system_timestamp": 1758997801.29834,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1717,
+      "system_timestamp": 1758997801.298642,
+      "steering_normalized": 0.1882,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1750,
+      "system_timestamp": 1758997801.2989378,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1783,
+      "system_timestamp": 1758997801.299233,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1816,
+      "system_timestamp": 1758997801.299531,
+      "steering_normalized": 0.1888,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1849,
+      "system_timestamp": 1758997801.2998855,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1882,
+      "system_timestamp": 1758997801.3001826,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1915,
+      "system_timestamp": 1758997801.3004763,
+      "steering_normalized": 0.1882,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1948,
+      "system_timestamp": 1758997801.3007765,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 1981,
+      "system_timestamp": 1758997801.3010714,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2014,
+      "system_timestamp": 1758997801.301365,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2048,
+      "system_timestamp": 1758997801.3016586,
+      "steering_normalized": 0.1882,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2081,
+      "system_timestamp": 1758997801.301955,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2114,
+      "system_timestamp": 1758997801.3022492,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2147,
+      "system_timestamp": 1758997801.3025439,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2180,
+      "system_timestamp": 1758997801.302841,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2213,
+      "system_timestamp": 1758997801.303287,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2246,
+      "system_timestamp": 1758997801.3035853,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2279,
+      "system_timestamp": 1758997801.3038895,
+      "steering_normalized": 0.1971,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21292,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2312,
+      "system_timestamp": 1758997801.3042011,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2345,
+      "system_timestamp": 1758997801.304495,
+      "steering_normalized": 0.1888,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2378,
+      "system_timestamp": 1758997801.304788,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2411,
+      "system_timestamp": 1758997801.3050854,
+      "steering_normalized": 0.1971,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21292,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2444,
+      "system_timestamp": 1758997801.3053792,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2477,
+      "system_timestamp": 1758997801.3056722,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2510,
+      "system_timestamp": 1758997801.3059661,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2543,
+      "system_timestamp": 1758997801.3062654,
+      "steering_normalized": 0.1882,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2576,
+      "system_timestamp": 1758997801.3065586,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2609,
+      "system_timestamp": 1758997801.306857,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2642,
+      "system_timestamp": 1758997801.3071585,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2675,
+      "system_timestamp": 1758997801.3074534,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2708,
+      "system_timestamp": 1758997801.3077471,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2741,
+      "system_timestamp": 1758997801.3080504,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2774,
+      "system_timestamp": 1758997801.3083477,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2807,
+      "system_timestamp": 1758997801.30865,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2840,
+      "system_timestamp": 1758997801.3089478,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2873,
+      "system_timestamp": 1758997801.3092413,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2906,
+      "system_timestamp": 1758997801.3095567,
+      "steering_normalized": 0.1882,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2939,
+      "system_timestamp": 1758997801.3098564,
+      "steering_normalized": 0.1971,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21292,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 2972,
+      "system_timestamp": 1758997801.3101792,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 3005,
+      "system_timestamp": 1758997801.3104944,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 3038,
+      "system_timestamp": 1758997801.3107958,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 3072,
+      "system_timestamp": 1758997801.3110938,
+      "steering_normalized": 0.1971,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21292,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 3105,
+      "system_timestamp": 1758997801.311389,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 3138,
+      "system_timestamp": 1758997801.3116927,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 3171,
+      "system_timestamp": 1758997801.3120046,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 3204,
+      "system_timestamp": 1758997801.3123007,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 3237,
+      "system_timestamp": 1758997801.3126004,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 3270,
+      "system_timestamp": 1758997801.312895,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 3303,
+      "system_timestamp": 1758997801.3131902,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 3336,
+      "system_timestamp": 1758997801.3137124,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 3369,
+      "system_timestamp": 1758997801.3140125,
+      "steering_normalized": 0.1971,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21292,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 3402,
+      "system_timestamp": 1758997801.31431,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 3435,
+      "system_timestamp": 1758997801.3146083,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 3468,
+      "system_timestamp": 1758997801.3149116,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 4789,
+      "system_timestamp": 1758997801.3152952,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 4723,
+      "system_timestamp": 1758997801.31565,
+      "steering_normalized": 0.1971,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21292,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 4756,
+      "system_timestamp": 1758997801.3165185,
+      "steering_normalized": 0.1804,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1584,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 4789,
+      "system_timestamp": 1758997801.316842,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 4723,
+      "system_timestamp": 1758997801.3171988,
+      "steering_normalized": 0.1971,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21292,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 4756,
+      "system_timestamp": 1758997801.3175821,
+      "steering_normalized": 0.1804,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1584,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 4789,
+      "system_timestamp": 1758997801.3178792,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 4822,
+      "system_timestamp": 1758997801.3354104,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 4855,
+      "system_timestamp": 1758997801.3675473,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 4888,
+      "system_timestamp": 1758997801.4004998,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 4921,
+      "system_timestamp": 1758997801.4335167,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 4954,
+      "system_timestamp": 1758997801.4665189,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 4987,
+      "system_timestamp": 1758997801.4987645,
+      "steering_normalized": 0.1738,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21292,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5020,
+      "system_timestamp": 1758997801.5316107,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5053,
+      "system_timestamp": 1758997801.5646183,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5086,
+      "system_timestamp": 1758997801.5976315,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5120,
+      "system_timestamp": 1758997801.63355,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5153,
+      "system_timestamp": 1758997801.6664984,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5186,
+      "system_timestamp": 1758997801.6994884,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5219,
+      "system_timestamp": 1758997801.7324626,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5252,
+      "system_timestamp": 1758997801.765479,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5285,
+      "system_timestamp": 1758997801.7977343,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5318,
+      "system_timestamp": 1758997801.8307154,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5351,
+      "system_timestamp": 1758997801.8635874,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5384,
+      "system_timestamp": 1758997801.8965757,
+      "steering_normalized": 0.181,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1584,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5417,
+      "system_timestamp": 1758997801.9323995,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5450,
+      "system_timestamp": 1758997801.9653,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5483,
+      "system_timestamp": 1758997801.9983263,
+      "steering_normalized": 0.181,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1584,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5516,
+      "system_timestamp": 1758997802.0313346,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5549,
+      "system_timestamp": 1758997802.0634878,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5582,
+      "system_timestamp": 1758997802.096404,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5615,
+      "system_timestamp": 1758997802.1297069,
+      "steering_normalized": 0.1804,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1584,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5648,
+      "system_timestamp": 1758997802.1624699,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5681,
+      "system_timestamp": 1758997802.1960099,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5714,
+      "system_timestamp": 1758997802.228069,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5747,
+      "system_timestamp": 1758997802.2605116,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5780,
+      "system_timestamp": 1758997802.2935,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5813,
+      "system_timestamp": 1758997802.3265069,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21300,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5846,
+      "system_timestamp": 1758997802.3586946,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5879,
+      "system_timestamp": 1758997802.3916407,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 0,
+      "steering_period_us": 21296,
+      "throttle_period_us": 0
+    },
+    {
+      "arduino_timestamp": 5912,
+      "system_timestamp": 1758997802.4246435,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.1687,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 120,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 5945,
+      "system_timestamp": 1758997802.4576697,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.192,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 5978,
+      "system_timestamp": 1758997802.4906878,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6011,
+      "system_timestamp": 1758997802.5264063,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 6044,
+      "system_timestamp": 1758997802.5594065,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 6077,
+      "system_timestamp": 1758997802.5924065,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 6110,
+      "system_timestamp": 1758997802.6254072,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6144,
+      "system_timestamp": 1758997802.6576407,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6177,
+      "system_timestamp": 1758997802.6906128,
+      "steering_normalized": 0.1804,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1584,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6210,
+      "system_timestamp": 1758997802.7236052,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6243,
+      "system_timestamp": 1758997802.7566183,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.2137,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 152,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6276,
+      "system_timestamp": 1758997802.7896137,
+      "steering_normalized": 0.1798,
+      "throttle_normalized": 0.192,
+      "steering_raw_us": 1584,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21304,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 6309,
+      "system_timestamp": 1758997802.825371,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.192,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 6342,
+      "system_timestamp": 1758997802.858347,
+      "steering_normalized": 0.181,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1584,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6375,
+      "system_timestamp": 1758997802.8913488,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.1969,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6408,
+      "system_timestamp": 1758997802.9235458,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6441,
+      "system_timestamp": 1758997802.9564862,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6474,
+      "system_timestamp": 1758997802.9894514,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.192,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 6507,
+      "system_timestamp": 1758997803.022452,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6540,
+      "system_timestamp": 1758997803.0554538,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6573,
+      "system_timestamp": 1758997803.0875635,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6606,
+      "system_timestamp": 1758997803.1205533,
+      "steering_normalized": 0.1577,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1572,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6639,
+      "system_timestamp": 1758997803.153557,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6672,
+      "system_timestamp": 1758997803.186574,
+      "steering_normalized": 0.15,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1568,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6705,
+      "system_timestamp": 1758997803.2195783,
+      "steering_normalized": 0.1344,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1560,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6738,
+      "system_timestamp": 1758997803.2517402,
+      "steering_normalized": 0.1339,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1560,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6771,
+      "system_timestamp": 1758997803.2846744,
+      "steering_normalized": 0.1111,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1548,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6804,
+      "system_timestamp": 1758997803.3176944,
+      "steering_normalized": 0.1106,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1548,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6837,
+      "system_timestamp": 1758997803.3506799,
+      "steering_normalized": 0.1111,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1548,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6870,
+      "system_timestamp": 1758997803.3828247,
+      "steering_normalized": 0.0879,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1536,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6903,
+      "system_timestamp": 1758997803.4194138,
+      "steering_normalized": 0.0956,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1540,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6936,
+      "system_timestamp": 1758997803.45242,
+      "steering_normalized": 0.0956,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1540,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 6969,
+      "system_timestamp": 1758997803.4854264,
+      "steering_normalized": 0.0718,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1528,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 7002,
+      "system_timestamp": 1758997803.5175068,
+      "steering_normalized": 0.0801,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1532,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 7035,
+      "system_timestamp": 1758997803.5505161,
+      "steering_normalized": 0.0568,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1520,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 7068,
+      "system_timestamp": 1758997803.5836952,
+      "steering_normalized": 0.0568,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1520,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 7101,
+      "system_timestamp": 1758997803.6165314,
+      "steering_normalized": 0.033,
+      "throttle_normalized": 0.192,
+      "steering_raw_us": 1508,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 7134,
+      "system_timestamp": 1758997803.6487458,
+      "steering_normalized": 0.0568,
+      "throttle_normalized": 0.1462,
+      "steering_raw_us": 1520,
+      "throttle_raw_us": 104,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 7168,
+      "system_timestamp": 1758997803.6816828,
+      "steering_normalized": 0.0102,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 7201,
+      "system_timestamp": 1758997803.7147207,
+      "steering_normalized": 0.0102,
+      "throttle_normalized": 0.192,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 7234,
+      "system_timestamp": 1758997803.7477138,
+      "steering_normalized": 0.0102,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 7267,
+      "system_timestamp": 1758997803.780723,
+      "steering_normalized": -0.0518,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1464,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 7300,
+      "system_timestamp": 1758997803.812966,
+      "steering_normalized": -0.0441,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1468,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 7333,
+      "system_timestamp": 1758997803.8494697,
+      "steering_normalized": -0.0674,
+      "throttle_normalized": 0.1969,
+      "steering_raw_us": 1456,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 7366,
+      "system_timestamp": 1758997803.8824694,
+      "steering_normalized": -0.0596,
+      "throttle_normalized": 0.192,
+      "steering_raw_us": 1460,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 7399,
+      "system_timestamp": 1758997803.9154694,
+      "steering_normalized": -0.0912,
+      "throttle_normalized": 0.192,
+      "steering_raw_us": 1444,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 7432,
+      "system_timestamp": 1758997803.94761,
+      "steering_normalized": -0.0907,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1444,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 7465,
+      "system_timestamp": 1758997803.9805741,
+      "steering_normalized": -0.0907,
+      "throttle_normalized": 0.192,
+      "steering_raw_us": 1444,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 7498,
+      "system_timestamp": 1758997804.0135863,
+      "steering_normalized": -0.0829,
+      "throttle_normalized": 0.192,
+      "steering_raw_us": 1448,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 7531,
+      "system_timestamp": 1758997804.0465949,
+      "steering_normalized": -0.0829,
+      "throttle_normalized": 0.192,
+      "steering_raw_us": 1448,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 7564,
+      "system_timestamp": 1758997804.079574,
+      "steering_normalized": -0.0829,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1448,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 7597,
+      "system_timestamp": 1758997804.1116147,
+      "steering_normalized": -0.0829,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1448,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 7630,
+      "system_timestamp": 1758997804.1446755,
+      "steering_normalized": -0.0824,
+      "throttle_normalized": 0.192,
+      "steering_raw_us": 1448,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21292,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 7663,
+      "system_timestamp": 1758997804.177676,
+      "steering_normalized": -0.0829,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1448,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 7696,
+      "system_timestamp": 1758997804.210696,
+      "steering_normalized": -0.1062,
+      "throttle_normalized": 0.192,
+      "steering_raw_us": 1436,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 7729,
+      "system_timestamp": 1758997804.2428749,
+      "steering_normalized": -0.1295,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1424,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 7762,
+      "system_timestamp": 1758997804.275785,
+      "steering_normalized": -0.1295,
+      "throttle_normalized": 0.192,
+      "steering_raw_us": 1424,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 7795,
+      "system_timestamp": 1758997804.3124318,
+      "steering_normalized": -0.1916,
+      "throttle_normalized": 0.192,
+      "steering_raw_us": 1392,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 7828,
+      "system_timestamp": 1758997804.3454263,
+      "steering_normalized": -0.2071,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1384,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 7861,
+      "system_timestamp": 1758997804.3775492,
+      "steering_normalized": -0.2459,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1364,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 7894,
+      "system_timestamp": 1758997804.4104376,
+      "steering_normalized": -0.2692,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1352,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 7927,
+      "system_timestamp": 1758997804.4435298,
+      "steering_normalized": -0.3162,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1328,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 7960,
+      "system_timestamp": 1758997804.476529,
+      "steering_normalized": -0.3473,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1312,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 7993,
+      "system_timestamp": 1758997804.5095308,
+      "steering_normalized": -0.3468,
+      "throttle_normalized": 0.192,
+      "steering_raw_us": 1312,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8026,
+      "system_timestamp": 1758997804.5415463,
+      "steering_normalized": -0.3701,
+      "throttle_normalized": 0.192,
+      "steering_raw_us": 1300,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8059,
+      "system_timestamp": 1758997804.5746446,
+      "steering_normalized": -0.3701,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1300,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 8092,
+      "system_timestamp": 1758997804.6076338,
+      "steering_normalized": -0.355,
+      "throttle_normalized": 0.1525,
+      "steering_raw_us": 1308,
+      "throttle_raw_us": 108,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8125,
+      "system_timestamp": 1758997804.6406167,
+      "steering_normalized": -0.3313,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1320,
+      "throttle_raw_us": 108,
+      "steering_period_us": 21296,
+      "throttle_period_us": 16
+    },
+    {
+      "arduino_timestamp": 8158,
+      "system_timestamp": 1758997804.6727533,
+      "steering_normalized": -0.2842,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1344,
+      "throttle_raw_us": 108,
+      "steering_period_us": 21292,
+      "throttle_period_us": 16
+    },
+    {
+      "arduino_timestamp": 8192,
+      "system_timestamp": 1758997804.7057188,
+      "steering_normalized": -0.2541,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1360,
+      "throttle_raw_us": 108,
+      "steering_period_us": 21300,
+      "throttle_period_us": 16
+    },
+    {
+      "arduino_timestamp": 8225,
+      "system_timestamp": 1758997804.7424514,
+      "steering_normalized": -0.2071,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1384,
+      "throttle_raw_us": 108,
+      "steering_period_us": 21296,
+      "throttle_period_us": 16
+    },
+    {
+      "arduino_timestamp": 8258,
+      "system_timestamp": 1758997804.7754757,
+      "steering_normalized": -0.1916,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1392,
+      "throttle_raw_us": 108,
+      "steering_period_us": 21296,
+      "throttle_period_us": 16
+    },
+    {
+      "arduino_timestamp": 8291,
+      "system_timestamp": 1758997804.8076377,
+      "steering_normalized": -0.145,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1416,
+      "throttle_raw_us": 108,
+      "steering_period_us": 21296,
+      "throttle_period_us": 16
+    },
+    {
+      "arduino_timestamp": 8324,
+      "system_timestamp": 1758997804.8412564,
+      "steering_normalized": -0.0674,
+      "throttle_normalized": 0.0,
+      "steering_raw_us": 1456,
+      "throttle_raw_us": 108,
+      "steering_period_us": 21296,
+      "throttle_period_us": 16
+    },
+    {
+      "arduino_timestamp": 8357,
+      "system_timestamp": 1758997804.8735883,
+      "steering_normalized": -0.0286,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1476,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8390,
+      "system_timestamp": 1758997804.9065795,
+      "steering_normalized": 0.0102,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8423,
+      "system_timestamp": 1758997804.939971,
+      "steering_normalized": 0.0186,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1500,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21292,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8456,
+      "system_timestamp": 1758997804.9716375,
+      "steering_normalized": 0.0335,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1508,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8489,
+      "system_timestamp": 1758997805.0046694,
+      "steering_normalized": 0.0418,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1512,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21292,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8522,
+      "system_timestamp": 1758997805.0376782,
+      "steering_normalized": 0.0568,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1520,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8555,
+      "system_timestamp": 1758997805.07068,
+      "steering_normalized": 0.0491,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1516,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8588,
+      "system_timestamp": 1758997805.1028826,
+      "steering_normalized": 0.0485,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1516,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8621,
+      "system_timestamp": 1758997805.1356785,
+      "steering_normalized": 0.0568,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1520,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8654,
+      "system_timestamp": 1758997805.1687934,
+      "steering_normalized": 0.033,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1508,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8687,
+      "system_timestamp": 1758997805.2017863,
+      "steering_normalized": 0.0102,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8720,
+      "system_timestamp": 1758997805.2348013,
+      "steering_normalized": 0.0102,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8753,
+      "system_timestamp": 1758997805.266894,
+      "steering_normalized": 0.0102,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8786,
+      "system_timestamp": 1758997805.3035362,
+      "steering_normalized": -0.0053,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1488,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8819,
+      "system_timestamp": 1758997805.336531,
+      "steering_normalized": 0.0097,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8852,
+      "system_timestamp": 1758997805.3695455,
+      "steering_normalized": 0.018,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1500,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8885,
+      "system_timestamp": 1758997805.4015856,
+      "steering_normalized": 0.0102,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8918,
+      "system_timestamp": 1758997805.434535,
+      "steering_normalized": 0.0102,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8951,
+      "system_timestamp": 1758997805.4676304,
+      "steering_normalized": 0.018,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1500,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 8984,
+      "system_timestamp": 1758997805.500642,
+      "steering_normalized": 0.0097,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9017,
+      "system_timestamp": 1758997805.5328162,
+      "steering_normalized": 0.0102,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9050,
+      "system_timestamp": 1758997805.5656369,
+      "steering_normalized": 0.0102,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9083,
+      "system_timestamp": 1758997805.5987372,
+      "steering_normalized": 0.018,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1500,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9116,
+      "system_timestamp": 1758997805.6317356,
+      "steering_normalized": 0.003,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1492,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21292,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9149,
+      "system_timestamp": 1758997805.6647494,
+      "steering_normalized": -0.0053,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1488,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9182,
+      "system_timestamp": 1758997805.6968532,
+      "steering_normalized": -0.0053,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1488,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9216,
+      "system_timestamp": 1758997805.7298827,
+      "steering_normalized": -0.0053,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1488,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9249,
+      "system_timestamp": 1758997805.7665758,
+      "steering_normalized": 0.0097,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9282,
+      "system_timestamp": 1758997805.7995813,
+      "steering_normalized": 0.018,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1500,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 9315,
+      "system_timestamp": 1758997805.831675,
+      "steering_normalized": 0.0097,
+      "throttle_normalized": 0.192,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9348,
+      "system_timestamp": 1758997805.8646646,
+      "steering_normalized": 0.018,
+      "throttle_normalized": 0.2146,
+      "steering_raw_us": 1500,
+      "throttle_raw_us": 152,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9381,
+      "system_timestamp": 1758997805.8976898,
+      "steering_normalized": 0.0097,
+      "throttle_normalized": 0.2137,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 152,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 9414,
+      "system_timestamp": 1758997805.9306846,
+      "steering_normalized": 0.018,
+      "throttle_normalized": 0.2137,
+      "steering_raw_us": 1500,
+      "throttle_raw_us": 152,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 9447,
+      "system_timestamp": 1758997805.96368,
+      "steering_normalized": -0.0446,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1468,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9480,
+      "system_timestamp": 1758997805.9956818,
+      "steering_normalized": 0.018,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1500,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9513,
+      "system_timestamp": 1758997806.0287702,
+      "steering_normalized": 0.0102,
+      "throttle_normalized": 0.2137,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 152,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 9546,
+      "system_timestamp": 1758997806.061807,
+      "steering_normalized": 0.018,
+      "throttle_normalized": 0.2146,
+      "steering_raw_us": 1500,
+      "throttle_raw_us": 152,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9579,
+      "system_timestamp": 1758997806.0947978,
+      "steering_normalized": 0.0097,
+      "throttle_normalized": 0.2202,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 156,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9612,
+      "system_timestamp": 1758997806.126921,
+      "steering_normalized": 0.0186,
+      "throttle_normalized": 0.2137,
+      "steering_raw_us": 1500,
+      "throttle_raw_us": 152,
+      "steering_period_us": 21292,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 9645,
+      "system_timestamp": 1758997806.160127,
+      "steering_normalized": 0.0102,
+      "throttle_normalized": 0.2137,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 152,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 9678,
+      "system_timestamp": 1758997806.1928954,
+      "steering_normalized": 0.0097,
+      "throttle_normalized": 0.1912,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 136,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1016
+    },
+    {
+      "arduino_timestamp": 9711,
+      "system_timestamp": 1758997806.229551,
+      "steering_normalized": 0.018,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1500,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9744,
+      "system_timestamp": 1758997806.261613,
+      "steering_normalized": 0.0097,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1496,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9777,
+      "system_timestamp": 1758997806.2945523,
+      "steering_normalized": 0.0418,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1512,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21292,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9810,
+      "system_timestamp": 1758997806.3276746,
+      "steering_normalized": 0.0335,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1508,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9843,
+      "system_timestamp": 1758997806.3606534,
+      "steering_normalized": 0.0568,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1520,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9876,
+      "system_timestamp": 1758997806.3928719,
+      "steering_normalized": 0.0723,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1528,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9909,
+      "system_timestamp": 1758997806.4256642,
+      "steering_normalized": 0.1344,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1560,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9942,
+      "system_timestamp": 1758997806.458678,
+      "steering_normalized": 0.1888,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 9975,
+      "system_timestamp": 1758997806.49206,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10008,
+      "system_timestamp": 1758997806.5247965,
+      "steering_normalized": 0.1971,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21292,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10041,
+      "system_timestamp": 1758997806.5568871,
+      "steering_normalized": 0.2347,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1612,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10074,
+      "system_timestamp": 1758997806.5897932,
+      "steering_normalized": 0.2897,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1640,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10107,
+      "system_timestamp": 1758997806.6229112,
+      "steering_normalized": 0.3213,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1656,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21292,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10140,
+      "system_timestamp": 1758997806.655906,
+      "steering_normalized": 0.3607,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1676,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21288,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10173,
+      "system_timestamp": 1758997806.6889148,
+      "steering_normalized": 0.375,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1684,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10206,
+      "system_timestamp": 1758997806.7209504,
+      "steering_normalized": 0.3977,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1696,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10240,
+      "system_timestamp": 1758997806.7576635,
+      "steering_normalized": 0.3983,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1696,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10273,
+      "system_timestamp": 1758997806.7907343,
+      "steering_normalized": 0.3822,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1688,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10306,
+      "system_timestamp": 1758997806.8237345,
+      "steering_normalized": 0.3977,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1696,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10339,
+      "system_timestamp": 1758997806.85574,
+      "steering_normalized": 0.4138,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1704,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10372,
+      "system_timestamp": 1758997806.8891416,
+      "steering_normalized": 0.4527,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1724,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10405,
+      "system_timestamp": 1758997806.921827,
+      "steering_normalized": 0.4753,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1736,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10438,
+      "system_timestamp": 1758997806.9549427,
+      "steering_normalized": 0.6234,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1812,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10471,
+      "system_timestamp": 1758997806.9869995,
+      "steering_normalized": 0.6615,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1832,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10504,
+      "system_timestamp": 1758997807.019864,
+      "steering_normalized": 0.7631,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1884,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10537,
+      "system_timestamp": 1758997807.0529253,
+      "steering_normalized": 0.9028,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1956,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10570,
+      "system_timestamp": 1758997807.0859394,
+      "steering_normalized": 1.0,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 2008,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10603,
+      "system_timestamp": 1758997807.118987,
+      "steering_normalized": 1.0,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 2040,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10636,
+      "system_timestamp": 1758997807.1509986,
+      "steering_normalized": 1.0,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 2068,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10669,
+      "system_timestamp": 1758997807.1839213,
+      "steering_normalized": 1.0,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 2068,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10702,
+      "system_timestamp": 1758997807.2206538,
+      "steering_normalized": 1.0,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 2068,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21292,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10735,
+      "system_timestamp": 1758997807.25367,
+      "steering_normalized": 1.0,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 2068,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10768,
+      "system_timestamp": 1758997807.2856784,
+      "steering_normalized": 1.0,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 2068,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10801,
+      "system_timestamp": 1758997807.3186631,
+      "steering_normalized": 1.0,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 2072,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10834,
+      "system_timestamp": 1758997807.351774,
+      "steering_normalized": 1.0,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 2068,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10867,
+      "system_timestamp": 1758997807.3847692,
+      "steering_normalized": 1.0,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 2068,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10900,
+      "system_timestamp": 1758997807.4175537,
+      "steering_normalized": 1.0,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 2068,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10933,
+      "system_timestamp": 1758997807.4497774,
+      "steering_normalized": 1.0,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 2072,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10966,
+      "system_timestamp": 1758997807.4827664,
+      "steering_normalized": 0.538,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1768,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 10999,
+      "system_timestamp": 1758997807.51612,
+      "steering_normalized": 0.15,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1568,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11032,
+      "system_timestamp": 1758997807.548894,
+      "steering_normalized": 0.212,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1600,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11065,
+      "system_timestamp": 1758997807.5809472,
+      "steering_normalized": 0.1732,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11098,
+      "system_timestamp": 1758997807.6138985,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11131,
+      "system_timestamp": 1758997807.6471431,
+      "steering_normalized": 0.1888,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11164,
+      "system_timestamp": 1758997807.6800823,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11197,
+      "system_timestamp": 1758997807.712184,
+      "steering_normalized": 0.1971,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21292,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11230,
+      "system_timestamp": 1758997807.7450278,
+      "steering_normalized": 0.1727,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1580,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11264,
+      "system_timestamp": 1758997807.7817287,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11297,
+      "system_timestamp": 1758997807.8148255,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11330,
+      "system_timestamp": 1758997807.847171,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11363,
+      "system_timestamp": 1758997807.8798666,
+      "steering_normalized": 0.1888,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11396,
+      "system_timestamp": 1758997807.9128635,
+      "steering_normalized": 0.1971,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21292,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11429,
+      "system_timestamp": 1758997807.9459465,
+      "steering_normalized": 0.1893,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21292,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11462,
+      "system_timestamp": 1758997807.979085,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11495,
+      "system_timestamp": 1758997808.0111656,
+      "steering_normalized": 0.1888,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11528,
+      "system_timestamp": 1758997808.0439446,
+      "steering_normalized": 0.1971,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21292,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11561,
+      "system_timestamp": 1758997808.0806925,
+      "steering_normalized": 0.1888,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11594,
+      "system_timestamp": 1758997808.1136827,
+      "steering_normalized": 0.1888,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11627,
+      "system_timestamp": 1758997808.145731,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11660,
+      "system_timestamp": 1758997808.1786797,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11693,
+      "system_timestamp": 1758997808.211684,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11726,
+      "system_timestamp": 1758997808.2447848,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11759,
+      "system_timestamp": 1758997808.2769575,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11792,
+      "system_timestamp": 1758997808.3097904,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11825,
+      "system_timestamp": 1758997808.3428018,
+      "steering_normalized": 0.1888,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11858,
+      "system_timestamp": 1758997808.3758936,
+      "steering_normalized": 0.1888,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11891,
+      "system_timestamp": 1758997808.4088898,
+      "steering_normalized": 0.1971,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21292,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11924,
+      "system_timestamp": 1758997808.4409764,
+      "steering_normalized": 0.1882,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11957,
+      "system_timestamp": 1758997808.4739041,
+      "steering_normalized": 0.1971,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21292,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 11990,
+      "system_timestamp": 1758997808.5070326,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 12023,
+      "system_timestamp": 1758997808.5400093,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 12056,
+      "system_timestamp": 1758997808.5722134,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 12089,
+      "system_timestamp": 1758997808.605011,
+      "steering_normalized": 0.1971,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21292,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 12122,
+      "system_timestamp": 1758997808.6380448,
+      "steering_normalized": 0.1888,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1588,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 12155,
+      "system_timestamp": 1758997808.6747384,
+      "steering_normalized": 0.1954,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21304,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 12188,
+      "system_timestamp": 1758997808.706892,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 12221,
+      "system_timestamp": 1758997808.7397563,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 12254,
+      "system_timestamp": 1758997808.7727609,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 12288,
+      "system_timestamp": 1758997808.8058739,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 12321,
+      "system_timestamp": 1758997808.8390799,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 12354,
+      "system_timestamp": 1758997808.8712008,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 12387,
+      "system_timestamp": 1758997808.9039488,
+      "steering_normalized": 0.1971,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21292,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 12420,
+      "system_timestamp": 1758997808.9369438,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 12453,
+      "system_timestamp": 1758997808.9700422,
+      "steering_normalized": 0.1959,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21300,
+      "throttle_period_us": 1012
+    },
+    {
+      "arduino_timestamp": 12486,
+      "system_timestamp": 1758997809.0032396,
+      "steering_normalized": 0.1965,
+      "throttle_normalized": 0.1976,
+      "steering_raw_us": 1592,
+      "throttle_raw_us": 140,
+      "steering_period_us": 21296,
+      "throttle_period_us": 1012
+    }
+  ],
+  "frame_samples": [
+    {
+      "frame_id": 1580,
+      "timestamp": 1758997801.3167517,
+      "image_path": "frames/frame_001580.jpg"
+    },
+    {
+      "frame_id": 1581,
+      "timestamp": 1758997801.350438,
+      "image_path": "frames/frame_001581.jpg"
+    },
+    {
+      "frame_id": 1582,
+      "timestamp": 1758997801.3841252,
+      "image_path": "frames/frame_001582.jpg"
+    },
+    {
+      "frame_id": 1583,
+      "timestamp": 1758997801.4182174,
+      "image_path": "frames/frame_001583.jpg"
+    },
+    {
+      "frame_id": 1584,
+      "timestamp": 1758997801.452144,
+      "image_path": "frames/frame_001584.jpg"
+    },
+    {
+      "frame_id": 1585,
+      "timestamp": 1758997801.486238,
+      "image_path": "frames/frame_001585.jpg"
+    },
+    {
+      "frame_id": 1586,
+      "timestamp": 1758997801.5201962,
+      "image_path": "frames/frame_001586.jpg"
+    },
+    {
+      "frame_id": 1587,
+      "timestamp": 1758997801.5542057,
+      "image_path": "frames/frame_001587.jpg"
+    },
+    {
+      "frame_id": 1588,
+      "timestamp": 1758997801.5881128,
+      "image_path": "frames/frame_001588.jpg"
+    },
+    {
+      "frame_id": 1589,
+      "timestamp": 1758997801.6222024,
+      "image_path": "frames/frame_001589.jpg"
+    },
+    {
+      "frame_id": 1590,
+      "timestamp": 1758997801.6560826,
+      "image_path": "frames/frame_001590.jpg"
+    },
+    {
+      "frame_id": 1591,
+      "timestamp": 1758997801.6901982,
+      "image_path": "frames/frame_001591.jpg"
+    },
+    {
+      "frame_id": 1592,
+      "timestamp": 1758997801.7235787,
+      "image_path": "frames/frame_001592.jpg"
+    },
+    {
+      "frame_id": 1593,
+      "timestamp": 1758997801.7572963,
+      "image_path": "frames/frame_001593.jpg"
+    },
+    {
+      "frame_id": 1594,
+      "timestamp": 1758997801.7910535,
+      "image_path": "frames/frame_001594.jpg"
+    },
+    {
+      "frame_id": 1595,
+      "timestamp": 1758997801.8252196,
+      "image_path": "frames/frame_001595.jpg"
+    },
+    {
+      "frame_id": 1596,
+      "timestamp": 1758997801.8593485,
+      "image_path": "frames/frame_001596.jpg"
+    },
+    {
+      "frame_id": 1597,
+      "timestamp": 1758997801.8936698,
+      "image_path": "frames/frame_001597.jpg"
+    },
+    {
+      "frame_id": 1598,
+      "timestamp": 1758997801.9272857,
+      "image_path": "frames/frame_001598.jpg"
+    },
+    {
+      "frame_id": 1599,
+      "timestamp": 1758997801.9615586,
+      "image_path": "frames/frame_001599.jpg"
+    },
+    {
+      "frame_id": 1600,
+      "timestamp": 1758997801.9958107,
+      "image_path": "frames/frame_001600.jpg"
+    },
+    {
+      "frame_id": 1601,
+      "timestamp": 1758997802.0301878,
+      "image_path": "frames/frame_001601.jpg"
+    },
+    {
+      "frame_id": 1602,
+      "timestamp": 1758997802.0640907,
+      "image_path": "frames/frame_001602.jpg"
+    },
+    {
+      "frame_id": 1603,
+      "timestamp": 1758997802.0981932,
+      "image_path": "frames/frame_001603.jpg"
+    },
+    {
+      "frame_id": 1604,
+      "timestamp": 1758997802.132113,
+      "image_path": "frames/frame_001604.jpg"
+    },
+    {
+      "frame_id": 1605,
+      "timestamp": 1758997802.166241,
+      "image_path": "frames/frame_001605.jpg"
+    },
+    {
+      "frame_id": 1606,
+      "timestamp": 1758997802.2003167,
+      "image_path": "frames/frame_001606.jpg"
+    },
+    {
+      "frame_id": 1607,
+      "timestamp": 1758997802.234211,
+      "image_path": "frames/frame_001607.jpg"
+    },
+    {
+      "frame_id": 1608,
+      "timestamp": 1758997802.268345,
+      "image_path": "frames/frame_001608.jpg"
+    },
+    {
+      "frame_id": 1609,
+      "timestamp": 1758997802.3022103,
+      "image_path": "frames/frame_001609.jpg"
+    },
+    {
+      "frame_id": 1610,
+      "timestamp": 1758997802.3362715,
+      "image_path": "frames/frame_001610.jpg"
+    },
+    {
+      "frame_id": 1611,
+      "timestamp": 1758997802.3703926,
+      "image_path": "frames/frame_001611.jpg"
+    },
+    {
+      "frame_id": 1612,
+      "timestamp": 1758997802.4042537,
+      "image_path": "frames/frame_001612.jpg"
+    },
+    {
+      "frame_id": 1613,
+      "timestamp": 1758997802.438374,
+      "image_path": "frames/frame_001613.jpg"
+    },
+    {
+      "frame_id": 1614,
+      "timestamp": 1758997802.4722507,
+      "image_path": "frames/frame_001614.jpg"
+    },
+    {
+      "frame_id": 1615,
+      "timestamp": 1758997802.5063784,
+      "image_path": "frames/frame_001615.jpg"
+    },
+    {
+      "frame_id": 1616,
+      "timestamp": 1758997802.540266,
+      "image_path": "frames/frame_001616.jpg"
+    },
+    {
+      "frame_id": 1617,
+      "timestamp": 1758997802.5743618,
+      "image_path": "frames/frame_001617.jpg"
+    },
+    {
+      "frame_id": 1618,
+      "timestamp": 1758997802.6082594,
+      "image_path": "frames/frame_001618.jpg"
+    },
+    {
+      "frame_id": 1619,
+      "timestamp": 1758997802.6423454,
+      "image_path": "frames/frame_001619.jpg"
+    },
+    {
+      "frame_id": 1620,
+      "timestamp": 1758997802.6763685,
+      "image_path": "frames/frame_001620.jpg"
+    },
+    {
+      "frame_id": 1621,
+      "timestamp": 1758997802.71035,
+      "image_path": "frames/frame_001621.jpg"
+    },
+    {
+      "frame_id": 1622,
+      "timestamp": 1758997802.7442768,
+      "image_path": "frames/frame_001622.jpg"
+    },
+    {
+      "frame_id": 1623,
+      "timestamp": 1758997802.7783868,
+      "image_path": "frames/frame_001623.jpg"
+    },
+    {
+      "frame_id": 1624,
+      "timestamp": 1758997802.8123307,
+      "image_path": "frames/frame_001624.jpg"
+    },
+    {
+      "frame_id": 1625,
+      "timestamp": 1758997802.8464103,
+      "image_path": "frames/frame_001625.jpg"
+    },
+    {
+      "frame_id": 1626,
+      "timestamp": 1758997802.8802733,
+      "image_path": "frames/frame_001626.jpg"
+    },
+    {
+      "frame_id": 1627,
+      "timestamp": 1758997802.9143884,
+      "image_path": "frames/frame_001627.jpg"
+    },
+    {
+      "frame_id": 1628,
+      "timestamp": 1758997802.9482632,
+      "image_path": "frames/frame_001628.jpg"
+    },
+    {
+      "frame_id": 1629,
+      "timestamp": 1758997802.9823956,
+      "image_path": "frames/frame_001629.jpg"
+    },
+    {
+      "frame_id": 1630,
+      "timestamp": 1758997803.0165124,
+      "image_path": "frames/frame_001630.jpg"
+    },
+    {
+      "frame_id": 1631,
+      "timestamp": 1758997803.0503886,
+      "image_path": "frames/frame_001631.jpg"
+    },
+    {
+      "frame_id": 1632,
+      "timestamp": 1758997803.0844991,
+      "image_path": "frames/frame_001632.jpg"
+    },
+    {
+      "frame_id": 1633,
+      "timestamp": 1758997803.1183887,
+      "image_path": "frames/frame_001633.jpg"
+    },
+    {
+      "frame_id": 1634,
+      "timestamp": 1758997803.152492,
+      "image_path": "frames/frame_001634.jpg"
+    },
+    {
+      "frame_id": 1635,
+      "timestamp": 1758997803.1863952,
+      "image_path": "frames/frame_001635.jpg"
+    },
+    {
+      "frame_id": 1636,
+      "timestamp": 1758997803.2205045,
+      "image_path": "frames/frame_001636.jpg"
+    },
+    {
+      "frame_id": 1637,
+      "timestamp": 1758997803.2543883,
+      "image_path": "frames/frame_001637.jpg"
+    },
+    {
+      "frame_id": 1638,
+      "timestamp": 1758997803.2884967,
+      "image_path": "frames/frame_001638.jpg"
+    },
+    {
+      "frame_id": 1639,
+      "timestamp": 1758997803.3223853,
+      "image_path": "frames/frame_001639.jpg"
+    },
+    {
+      "frame_id": 1640,
+      "timestamp": 1758997803.356496,
+      "image_path": "frames/frame_001640.jpg"
+    },
+    {
+      "frame_id": 1641,
+      "timestamp": 1758997803.3904104,
+      "image_path": "frames/frame_001641.jpg"
+    },
+    {
+      "frame_id": 1642,
+      "timestamp": 1758997803.424544,
+      "image_path": "frames/frame_001642.jpg"
+    },
+    {
+      "frame_id": 1643,
+      "timestamp": 1758997803.458409,
+      "image_path": "frames/frame_001643.jpg"
+    },
+    {
+      "frame_id": 1644,
+      "timestamp": 1758997803.4925451,
+      "image_path": "frames/frame_001644.jpg"
+    },
+    {
+      "frame_id": 1645,
+      "timestamp": 1758997803.526427,
+      "image_path": "frames/frame_001645.jpg"
+    },
+    {
+      "frame_id": 1646,
+      "timestamp": 1758997803.560753,
+      "image_path": "frames/frame_001646.jpg"
+    },
+    {
+      "frame_id": 1647,
+      "timestamp": 1758997803.594441,
+      "image_path": "frames/frame_001647.jpg"
+    },
+    {
+      "frame_id": 1648,
+      "timestamp": 1758997803.6285553,
+      "image_path": "frames/frame_001648.jpg"
+    },
+    {
+      "frame_id": 1649,
+      "timestamp": 1758997803.662669,
+      "image_path": "frames/frame_001649.jpg"
+    },
+    {
+      "frame_id": 1650,
+      "timestamp": 1758997803.6965752,
+      "image_path": "frames/frame_001650.jpg"
+    },
+    {
+      "frame_id": 1651,
+      "timestamp": 1758997803.7306824,
+      "image_path": "frames/frame_001651.jpg"
+    },
+    {
+      "frame_id": 1652,
+      "timestamp": 1758997803.7645445,
+      "image_path": "frames/frame_001652.jpg"
+    },
+    {
+      "frame_id": 1653,
+      "timestamp": 1758997803.798715,
+      "image_path": "frames/frame_001653.jpg"
+    },
+    {
+      "frame_id": 1654,
+      "timestamp": 1758997803.8325753,
+      "image_path": "frames/frame_001654.jpg"
+    },
+    {
+      "frame_id": 1655,
+      "timestamp": 1758997803.8666608,
+      "image_path": "frames/frame_001655.jpg"
+    },
+    {
+      "frame_id": 1656,
+      "timestamp": 1758997803.900553,
+      "image_path": "frames/frame_001656.jpg"
+    },
+    {
+      "frame_id": 1657,
+      "timestamp": 1758997803.9346871,
+      "image_path": "frames/frame_001657.jpg"
+    },
+    {
+      "frame_id": 1658,
+      "timestamp": 1758997803.968551,
+      "image_path": "frames/frame_001658.jpg"
+    },
+    {
+      "frame_id": 1659,
+      "timestamp": 1758997804.0026586,
+      "image_path": "frames/frame_001659.jpg"
+    },
+    {
+      "frame_id": 1660,
+      "timestamp": 1758997804.0365534,
+      "image_path": "frames/frame_001660.jpg"
+    },
+    {
+      "frame_id": 1661,
+      "timestamp": 1758997804.0706825,
+      "image_path": "frames/frame_001661.jpg"
+    },
+    {
+      "frame_id": 1662,
+      "timestamp": 1758997804.10456,
+      "image_path": "frames/frame_001662.jpg"
+    },
+    {
+      "frame_id": 1663,
+      "timestamp": 1758997804.1386933,
+      "image_path": "frames/frame_001663.jpg"
+    },
+    {
+      "frame_id": 1664,
+      "timestamp": 1758997804.1725304,
+      "image_path": "frames/frame_001664.jpg"
+    },
+    {
+      "frame_id": 1665,
+      "timestamp": 1758997804.2066653,
+      "image_path": "frames/frame_001665.jpg"
+    },
+    {
+      "frame_id": 1666,
+      "timestamp": 1758997804.2405705,
+      "image_path": "frames/frame_001666.jpg"
+    },
+    {
+      "frame_id": 1667,
+      "timestamp": 1758997804.2746565,
+      "image_path": "frames/frame_001667.jpg"
+    },
+    {
+      "frame_id": 1668,
+      "timestamp": 1758997804.3087955,
+      "image_path": "frames/frame_001668.jpg"
+    },
+    {
+      "frame_id": 1669,
+      "timestamp": 1758997804.3427346,
+      "image_path": "frames/frame_001669.jpg"
+    },
+    {
+      "frame_id": 1670,
+      "timestamp": 1758997804.3768823,
+      "image_path": "frames/frame_001670.jpg"
+    },
+    {
+      "frame_id": 1671,
+      "timestamp": 1758997804.4106987,
+      "image_path": "frames/frame_001671.jpg"
+    },
+    {
+      "frame_id": 1672,
+      "timestamp": 1758997804.4448302,
+      "image_path": "frames/frame_001672.jpg"
+    },
+    {
+      "frame_id": 1673,
+      "timestamp": 1758997804.4786825,
+      "image_path": "frames/frame_001673.jpg"
+    },
+    {
+      "frame_id": 1674,
+      "timestamp": 1758997804.5128033,
+      "image_path": "frames/frame_001674.jpg"
+    },
+    {
+      "frame_id": 1675,
+      "timestamp": 1758997804.546704,
+      "image_path": "frames/frame_001675.jpg"
+    },
+    {
+      "frame_id": 1676,
+      "timestamp": 1758997804.580811,
+      "image_path": "frames/frame_001676.jpg"
+    },
+    {
+      "frame_id": 1677,
+      "timestamp": 1758997804.6146982,
+      "image_path": "frames/frame_001677.jpg"
+    },
+    {
+      "frame_id": 1678,
+      "timestamp": 1758997804.648818,
+      "image_path": "frames/frame_001678.jpg"
+    },
+    {
+      "frame_id": 1679,
+      "timestamp": 1758997804.6827092,
+      "image_path": "frames/frame_001679.jpg"
+    },
+    {
+      "frame_id": 1680,
+      "timestamp": 1758997804.716834,
+      "image_path": "frames/frame_001680.jpg"
+    },
+    {
+      "frame_id": 1681,
+      "timestamp": 1758997804.750714,
+      "image_path": "frames/frame_001681.jpg"
+    },
+    {
+      "frame_id": 1682,
+      "timestamp": 1758997804.7848487,
+      "image_path": "frames/frame_001682.jpg"
+    },
+    {
+      "frame_id": 1683,
+      "timestamp": 1758997804.8187227,
+      "image_path": "frames/frame_001683.jpg"
+    },
+    {
+      "frame_id": 1684,
+      "timestamp": 1758997804.8528278,
+      "image_path": "frames/frame_001684.jpg"
+    },
+    {
+      "frame_id": 1685,
+      "timestamp": 1758997804.8867054,
+      "image_path": "frames/frame_001685.jpg"
+    },
+    {
+      "frame_id": 1686,
+      "timestamp": 1758997804.9208481,
+      "image_path": "frames/frame_001686.jpg"
+    },
+    {
+      "frame_id": 1687,
+      "timestamp": 1758997804.954943,
+      "image_path": "frames/frame_001687.jpg"
+    },
+    {
+      "frame_id": 1688,
+      "timestamp": 1758997804.9888377,
+      "image_path": "frames/frame_001688.jpg"
+    },
+    {
+      "frame_id": 1689,
+      "timestamp": 1758997805.0229404,
+      "image_path": "frames/frame_001689.jpg"
+    },
+    {
+      "frame_id": 1690,
+      "timestamp": 1758997805.0568328,
+      "image_path": "frames/frame_001690.jpg"
+    },
+    {
+      "frame_id": 1691,
+      "timestamp": 1758997805.0909445,
+      "image_path": "frames/frame_001691.jpg"
+    },
+    {
+      "frame_id": 1692,
+      "timestamp": 1758997805.1248128,
+      "image_path": "frames/frame_001692.jpg"
+    },
+    {
+      "frame_id": 1693,
+      "timestamp": 1758997805.1589446,
+      "image_path": "frames/frame_001693.jpg"
+    },
+    {
+      "frame_id": 1694,
+      "timestamp": 1758997805.192863,
+      "image_path": "frames/frame_001694.jpg"
+    },
+    {
+      "frame_id": 1695,
+      "timestamp": 1758997805.2269456,
+      "image_path": "frames/frame_001695.jpg"
+    },
+    {
+      "frame_id": 1696,
+      "timestamp": 1758997805.2608545,
+      "image_path": "frames/frame_001696.jpg"
+    },
+    {
+      "frame_id": 1697,
+      "timestamp": 1758997805.2949538,
+      "image_path": "frames/frame_001697.jpg"
+    },
+    {
+      "frame_id": 1698,
+      "timestamp": 1758997805.328868,
+      "image_path": "frames/frame_001698.jpg"
+    },
+    {
+      "frame_id": 1699,
+      "timestamp": 1758997805.3629897,
+      "image_path": "frames/frame_001699.jpg"
+    },
+    {
+      "frame_id": 1700,
+      "timestamp": 1758997805.3968563,
+      "image_path": "frames/frame_001700.jpg"
+    },
+    {
+      "frame_id": 1701,
+      "timestamp": 1758997805.4309902,
+      "image_path": "frames/frame_001701.jpg"
+    },
+    {
+      "frame_id": 1702,
+      "timestamp": 1758997805.4648454,
+      "image_path": "frames/frame_001702.jpg"
+    },
+    {
+      "frame_id": 1703,
+      "timestamp": 1758997805.4989748,
+      "image_path": "frames/frame_001703.jpg"
+    },
+    {
+      "frame_id": 1704,
+      "timestamp": 1758997805.5328505,
+      "image_path": "frames/frame_001704.jpg"
+    },
+    {
+      "frame_id": 1705,
+      "timestamp": 1758997805.5670035,
+      "image_path": "frames/frame_001705.jpg"
+    },
+    {
+      "frame_id": 1706,
+      "timestamp": 1758997805.6010804,
+      "image_path": "frames/frame_001706.jpg"
+    },
+    {
+      "frame_id": 1707,
+      "timestamp": 1758997805.6349883,
+      "image_path": "frames/frame_001707.jpg"
+    },
+    {
+      "frame_id": 1708,
+      "timestamp": 1758997805.6690848,
+      "image_path": "frames/frame_001708.jpg"
+    },
+    {
+      "frame_id": 1709,
+      "timestamp": 1758997805.7029994,
+      "image_path": "frames/frame_001709.jpg"
+    },
+    {
+      "frame_id": 1710,
+      "timestamp": 1758997805.7370903,
+      "image_path": "frames/frame_001710.jpg"
+    },
+    {
+      "frame_id": 1711,
+      "timestamp": 1758997805.7709737,
+      "image_path": "frames/frame_001711.jpg"
+    },
+    {
+      "frame_id": 1712,
+      "timestamp": 1758997805.8050935,
+      "image_path": "frames/frame_001712.jpg"
+    },
+    {
+      "frame_id": 1713,
+      "timestamp": 1758997805.8389997,
+      "image_path": "frames/frame_001713.jpg"
+    },
+    {
+      "frame_id": 1714,
+      "timestamp": 1758997805.8732314,
+      "image_path": "frames/frame_001714.jpg"
+    },
+    {
+      "frame_id": 1715,
+      "timestamp": 1758997805.9068818,
+      "image_path": "frames/frame_001715.jpg"
+    },
+    {
+      "frame_id": 1716,
+      "timestamp": 1758997805.9407187,
+      "image_path": "frames/frame_001716.jpg"
+    },
+    {
+      "frame_id": 1717,
+      "timestamp": 1758997805.9750085,
+      "image_path": "frames/frame_001717.jpg"
+    },
+    {
+      "frame_id": 1718,
+      "timestamp": 1758997806.0091105,
+      "image_path": "frames/frame_001718.jpg"
+    },
+    {
+      "frame_id": 1719,
+      "timestamp": 1758997806.0429707,
+      "image_path": "frames/frame_001719.jpg"
+    },
+    {
+      "frame_id": 1720,
+      "timestamp": 1758997806.077158,
+      "image_path": "frames/frame_001720.jpg"
+    },
+    {
+      "frame_id": 1721,
+      "timestamp": 1758997806.1109886,
+      "image_path": "frames/frame_001721.jpg"
+    },
+    {
+      "frame_id": 1722,
+      "timestamp": 1758997806.1451123,
+      "image_path": "frames/frame_001722.jpg"
+    },
+    {
+      "frame_id": 1723,
+      "timestamp": 1758997806.1790097,
+      "image_path": "frames/frame_001723.jpg"
+    },
+    {
+      "frame_id": 1724,
+      "timestamp": 1758997806.2131135,
+      "image_path": "frames/frame_001724.jpg"
+    },
+    {
+      "frame_id": 1725,
+      "timestamp": 1758997806.2470021,
+      "image_path": "frames/frame_001725.jpg"
+    },
+    {
+      "frame_id": 1726,
+      "timestamp": 1758997806.2811131,
+      "image_path": "frames/frame_001726.jpg"
+    },
+    {
+      "frame_id": 1727,
+      "timestamp": 1758997806.3152626,
+      "image_path": "frames/frame_001727.jpg"
+    },
+    {
+      "frame_id": 1728,
+      "timestamp": 1758997806.348756,
+      "image_path": "frames/frame_001728.jpg"
+    },
+    {
+      "frame_id": 1729,
+      "timestamp": 1758997806.3830328,
+      "image_path": "frames/frame_001729.jpg"
+    },
+    {
+      "frame_id": 1730,
+      "timestamp": 1758997806.4168572,
+      "image_path": "frames/frame_001730.jpg"
+    },
+    {
+      "frame_id": 1731,
+      "timestamp": 1758997806.4508533,
+      "image_path": "frames/frame_001731.jpg"
+    },
+    {
+      "frame_id": 1732,
+      "timestamp": 1758997806.484498,
+      "image_path": "frames/frame_001732.jpg"
+    },
+    {
+      "frame_id": 1733,
+      "timestamp": 1758997806.5185351,
+      "image_path": "frames/frame_001733.jpg"
+    },
+    {
+      "frame_id": 1734,
+      "timestamp": 1758997806.5523841,
+      "image_path": "frames/frame_001734.jpg"
+    },
+    {
+      "frame_id": 1735,
+      "timestamp": 1758997806.586473,
+      "image_path": "frames/frame_001735.jpg"
+    },
+    {
+      "frame_id": 1736,
+      "timestamp": 1758997806.620215,
+      "image_path": "frames/frame_001736.jpg"
+    },
+    {
+      "frame_id": 1737,
+      "timestamp": 1758997806.6537921,
+      "image_path": "frames/frame_001737.jpg"
+    },
+    {
+      "frame_id": 1738,
+      "timestamp": 1758997806.6879542,
+      "image_path": "frames/frame_001738.jpg"
+    },
+    {
+      "frame_id": 1739,
+      "timestamp": 1758997806.7218027,
+      "image_path": "frames/frame_001739.jpg"
+    },
+    {
+      "frame_id": 1740,
+      "timestamp": 1758997806.755959,
+      "image_path": "frames/frame_001740.jpg"
+    },
+    {
+      "frame_id": 1741,
+      "timestamp": 1758997806.7898388,
+      "image_path": "frames/frame_001741.jpg"
+    },
+    {
+      "frame_id": 1742,
+      "timestamp": 1758997806.8239882,
+      "image_path": "frames/frame_001742.jpg"
+    },
+    {
+      "frame_id": 1743,
+      "timestamp": 1758997806.8577938,
+      "image_path": "frames/frame_001743.jpg"
+    },
+    {
+      "frame_id": 1744,
+      "timestamp": 1758997806.8911755,
+      "image_path": "frames/frame_001744.jpg"
+    },
+    {
+      "frame_id": 1745,
+      "timestamp": 1758997806.9247496,
+      "image_path": "frames/frame_001745.jpg"
+    },
+    {
+      "frame_id": 1746,
+      "timestamp": 1758997806.958924,
+      "image_path": "frames/frame_001746.jpg"
+    },
+    {
+      "frame_id": 1747,
+      "timestamp": 1758997806.992783,
+      "image_path": "frames/frame_001747.jpg"
+    },
+    {
+      "frame_id": 1748,
+      "timestamp": 1758997807.026892,
+      "image_path": "frames/frame_001748.jpg"
+    },
+    {
+      "frame_id": 1749,
+      "timestamp": 1758997807.0602944,
+      "image_path": "frames/frame_001749.jpg"
+    },
+    {
+      "frame_id": 1750,
+      "timestamp": 1758997807.094486,
+      "image_path": "frames/frame_001750.jpg"
+    },
+    {
+      "frame_id": 1751,
+      "timestamp": 1758997807.128267,
+      "image_path": "frames/frame_001751.jpg"
+    },
+    {
+      "frame_id": 1752,
+      "timestamp": 1758997807.162369,
+      "image_path": "frames/frame_001752.jpg"
+    },
+    {
+      "frame_id": 1753,
+      "timestamp": 1758997807.196161,
+      "image_path": "frames/frame_001753.jpg"
+    },
+    {
+      "frame_id": 1754,
+      "timestamp": 1758997807.230291,
+      "image_path": "frames/frame_001754.jpg"
+    },
+    {
+      "frame_id": 1755,
+      "timestamp": 1758997807.2641878,
+      "image_path": "frames/frame_001755.jpg"
+    },
+    {
+      "frame_id": 1756,
+      "timestamp": 1758997807.2983568,
+      "image_path": "frames/frame_001756.jpg"
+    },
+    {
+      "frame_id": 1757,
+      "timestamp": 1758997807.3321474,
+      "image_path": "frames/frame_001757.jpg"
+    },
+    {
+      "frame_id": 1758,
+      "timestamp": 1758997807.3662877,
+      "image_path": "frames/frame_001758.jpg"
+    },
+    {
+      "frame_id": 1759,
+      "timestamp": 1758997807.4001446,
+      "image_path": "frames/frame_001759.jpg"
+    },
+    {
+      "frame_id": 1760,
+      "timestamp": 1758997807.434245,
+      "image_path": "frames/frame_001760.jpg"
+    },
+    {
+      "frame_id": 1761,
+      "timestamp": 1758997807.4681416,
+      "image_path": "frames/frame_001761.jpg"
+    },
+    {
+      "frame_id": 1762,
+      "timestamp": 1758997807.5022433,
+      "image_path": "frames/frame_001762.jpg"
+    },
+    {
+      "frame_id": 1763,
+      "timestamp": 1758997807.5361896,
+      "image_path": "frames/frame_001763.jpg"
+    },
+    {
+      "frame_id": 1764,
+      "timestamp": 1758997807.5702643,
+      "image_path": "frames/frame_001764.jpg"
+    },
+    {
+      "frame_id": 1765,
+      "timestamp": 1758997807.6042178,
+      "image_path": "frames/frame_001765.jpg"
+    },
+    {
+      "frame_id": 1766,
+      "timestamp": 1758997807.6381638,
+      "image_path": "frames/frame_001766.jpg"
+    },
+    {
+      "frame_id": 1767,
+      "timestamp": 1758997807.6721177,
+      "image_path": "frames/frame_001767.jpg"
+    },
+    {
+      "frame_id": 1768,
+      "timestamp": 1758997807.7062495,
+      "image_path": "frames/frame_001768.jpg"
+    },
+    {
+      "frame_id": 1769,
+      "timestamp": 1758997807.740252,
+      "image_path": "frames/frame_001769.jpg"
+    },
+    {
+      "frame_id": 1770,
+      "timestamp": 1758997807.7742603,
+      "image_path": "frames/frame_001770.jpg"
+    },
+    {
+      "frame_id": 1771,
+      "timestamp": 1758997807.8083875,
+      "image_path": "frames/frame_001771.jpg"
+    },
+    {
+      "frame_id": 1772,
+      "timestamp": 1758997807.842391,
+      "image_path": "frames/frame_001772.jpg"
+    },
+    {
+      "frame_id": 1773,
+      "timestamp": 1758997807.876371,
+      "image_path": "frames/frame_001773.jpg"
+    },
+    {
+      "frame_id": 1774,
+      "timestamp": 1758997807.9103293,
+      "image_path": "frames/frame_001774.jpg"
+    },
+    {
+      "frame_id": 1775,
+      "timestamp": 1758997807.944353,
+      "image_path": "frames/frame_001775.jpg"
+    },
+    {
+      "frame_id": 1776,
+      "timestamp": 1758997807.9783077,
+      "image_path": "frames/frame_001776.jpg"
+    },
+    {
+      "frame_id": 1777,
+      "timestamp": 1758997808.012255,
+      "image_path": "frames/frame_001777.jpg"
+    },
+    {
+      "frame_id": 1778,
+      "timestamp": 1758997808.0462668,
+      "image_path": "frames/frame_001778.jpg"
+    },
+    {
+      "frame_id": 1779,
+      "timestamp": 1758997808.080217,
+      "image_path": "frames/frame_001779.jpg"
+    },
+    {
+      "frame_id": 1780,
+      "timestamp": 1758997808.1142771,
+      "image_path": "frames/frame_001780.jpg"
+    },
+    {
+      "frame_id": 1781,
+      "timestamp": 1758997808.1482477,
+      "image_path": "frames/frame_001781.jpg"
+    },
+    {
+      "frame_id": 1782,
+      "timestamp": 1758997808.182245,
+      "image_path": "frames/frame_001782.jpg"
+    },
+    {
+      "frame_id": 1783,
+      "timestamp": 1758997808.2161882,
+      "image_path": "frames/frame_001783.jpg"
+    },
+    {
+      "frame_id": 1784,
+      "timestamp": 1758997808.249947,
+      "image_path": "frames/frame_001784.jpg"
+    },
+    {
+      "frame_id": 1785,
+      "timestamp": 1758997808.2838378,
+      "image_path": "frames/frame_001785.jpg"
+    },
+    {
+      "frame_id": 1786,
+      "timestamp": 1758997808.3180113,
+      "image_path": "frames/frame_001786.jpg"
+    },
+    {
+      "frame_id": 1787,
+      "timestamp": 1758997808.3520045,
+      "image_path": "frames/frame_001787.jpg"
+    },
+    {
+      "frame_id": 1788,
+      "timestamp": 1758997808.386002,
+      "image_path": "frames/frame_001788.jpg"
+    },
+    {
+      "frame_id": 1789,
+      "timestamp": 1758997808.4199765,
+      "image_path": "frames/frame_001789.jpg"
+    },
+    {
+      "frame_id": 1790,
+      "timestamp": 1758997808.4539692,
+      "image_path": "frames/frame_001790.jpg"
+    },
+    {
+      "frame_id": 1791,
+      "timestamp": 1758997808.4879549,
+      "image_path": "frames/frame_001791.jpg"
+    },
+    {
+      "frame_id": 1792,
+      "timestamp": 1758997808.521937,
+      "image_path": "frames/frame_001792.jpg"
+    },
+    {
+      "frame_id": 1793,
+      "timestamp": 1758997808.5559187,
+      "image_path": "frames/frame_001793.jpg"
+    },
+    {
+      "frame_id": 1794,
+      "timestamp": 1758997808.589893,
+      "image_path": "frames/frame_001794.jpg"
+    },
+    {
+      "frame_id": 1795,
+      "timestamp": 1758997808.6239035,
+      "image_path": "frames/frame_001795.jpg"
+    },
+    {
+      "frame_id": 1796,
+      "timestamp": 1758997808.6579487,
+      "image_path": "frames/frame_001796.jpg"
+    },
+    {
+      "frame_id": 1797,
+      "timestamp": 1758997808.691951,
+      "image_path": "frames/frame_001797.jpg"
+    },
+    {
+      "frame_id": 1798,
+      "timestamp": 1758997808.726173,
+      "image_path": "frames/frame_001798.jpg"
+    },
+    {
+      "frame_id": 1799,
+      "timestamp": 1758997808.760177,
+      "image_path": "frames/frame_001799.jpg"
+    },
+    {
+      "frame_id": 1800,
+      "timestamp": 1758997808.7941918,
+      "image_path": "frames/frame_001800.jpg"
+    },
+    {
+      "frame_id": 1801,
+      "timestamp": 1758997808.8281806,
+      "image_path": "frames/frame_001801.jpg"
+    },
+    {
+      "frame_id": 1802,
+      "timestamp": 1758997808.862239,
+      "image_path": "frames/frame_001802.jpg"
+    },
+    {
+      "frame_id": 1803,
+      "timestamp": 1758997808.8963223,
+      "image_path": "frames/frame_001803.jpg"
+    },
+    {
+      "frame_id": 1804,
+      "timestamp": 1758997808.9303474,
+      "image_path": "frames/frame_001804.jpg"
+    },
+    {
+      "frame_id": 1805,
+      "timestamp": 1758997808.9643855,
+      "image_path": "frames/frame_001805.jpg"
+    },
+    {
+      "frame_id": 1806,
+      "timestamp": 1758997808.998398,
+      "image_path": "frames/frame_001806.jpg"
+    }
+  ]
+}
