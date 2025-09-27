@@ -1,6 +1,23 @@
-# FTX Tracer Truggy Autonomy Project: Raspberry Pi Implementation Guide
+# FTX Tracer Tr### 1.1 Tapped Signal Lines
 
-This document outlines the hardware connections, verified signal parameters, and the software execution steps required to use your Raspberry Pi for both expert data capture and autonomous control of the FTX Tracer Truggy.
+Three essential control signals are tapped from the integrated ESC/Receiver board (FTX9731):
+
+| Signal Name | Purpose / Function |
+|-------------|-------------------|
+| **PWM Drive (Throttle)** | Motor Control. High-frequency signal (≈985 Hz) controlled by Duty Cycle (0%→70%) |
+| **PWM Servo (Steering)** | Steering Control. Standard RC signal (≈47 Hz) controlled by Pulse Width (1065μs→1959μs) |
+| **GND (Ground)** | Common Reference. Must be connected to the Raspberry Pi's GND |n### 1.2 Logic Level Converter
+
+⚠️ **Required for GPIO protection.** The car's 5V signals must be converted to 3.3V for safe Raspberry Pi operation.
+
+- **HV Side:** Connect to car's PWM signals and ground
+- **LV Side:** Connect to Raspberry Pi GPIO pins (BCM18 & 23) and ground
+- **Ground:** Connect all ground references togetherct: Raspberry Pi Implementation ### 2.2 GPIO Pin Mapping
+
+| Signal | BCM Pin |
+|--------|---------|
+| **Steering (PWM Servo)** | BCM 18 |
+| **Throttle (PWM Drive)** | BCM 23 |his document outlines the hardware connections, verified signal parameters, and the software execution steps required to use your Raspberry Pi for both expert data capture and autonomous control of the FTX Tracer Truggy.
 
 ## Table of Contents
 
@@ -87,7 +104,13 @@ The `RCReader` class uses pigpio callbacks, which are hardware interrupts that t
 
 ### 3.2 Execution
 
-To begin logging data, you must run the `data_logging_example()` function in the `control_interface.py` file:
+**Integrated Data Collection (Recommended):**
+```bash
+python3 src/record/integrated_data_collector.py --episode-duration 10 --output-dir ./episodes
+```
+
+**Alternative - Basic Data Logging:**
+You can also run the `data_logging_example()` function in the `control_interface.py` file:
 
 ```python
 # In your control_interface.py file:
@@ -103,8 +126,6 @@ if __name__ == '__main__':
 ```bash
 python3 control_interface.py
 ```
-
-Output will show timestamped, normalized actions synchronized for collection.
 
 ## Phase II: Autonomous Control (Writing Commands)
 
