@@ -1,5 +1,17 @@
 # -----------------------------------------------------------------------------
-# ACT POLICY DATA LOGGER: FTX TRACER TRUGGY (Phase I)
+# ⚠️  DEPRECATED: DIRECT GPIO PWM READING APPROACH
+# -----------------------------------------------------------------------------
+# This script is DEPRECATED in favor of the Arduino-based approach.
+# 
+# Current recommended setup:
+# - Arduino UNO R3 reads PWM signals on pins 2 & 3
+# - Raspberry Pi receives data via USB serial
+# - Use integrated_data_collector.py instead
+#
+# This file is kept for reference only.
+# -----------------------------------------------------------------------------
+#
+# LEGACY ACT POLICY DATA LOGGER: FTX TRACER TRUGGY (Phase I)
 # -----------------------------------------------------------------------------
 # This script reads PWM signals from the RC car's integrated ESC/Receiver board
 # and logs the normalized state-action pairs to a CSV file.

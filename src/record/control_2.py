@@ -1,3 +1,7 @@
+# ⚠️ DEPRECATED: This script uses direct GPIO PWM reading
+# Current setup uses Arduino-based PWM reading instead
+# Use integrated_data_collector.py for data recording
+
 import RPi.GPIO as GPIO
 import time
 

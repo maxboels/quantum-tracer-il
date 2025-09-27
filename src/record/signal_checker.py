@@ -1,7 +1,11 @@
+# ⚠️ DEPRECATED: This script uses direct GPIO PWM reading
+# Current setup uses Arduino-based PWM reading instead
+# Arduino reads PWM on pins 2&3, sends via USB serial to Raspberry Pi
+
 import lgpio
 import time
 
-# --- HARDWARE CONFIGURATION ---
+# --- HARDWARE CONFIGURATION (DEPRECATED) ---
 # BCM (GPIO) Pin assignments on the Raspberry Pi
 STEERING_PIN_GPIO = 18  # BCM 18: Steering (PWM Servo tap)
 THROTTLE_PIN_GPIO = 23  # BCM 23: Throttle (PWM Drive tap)

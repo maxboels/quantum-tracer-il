@@ -1,44 +1,77 @@
-That is perfect\! Seeing the command line tells me two things:
+## Arduino-Based Data Collection Setup
 
-1.  You are successfully logged into your **Raspberry Pi 5** via $\text{SSH}$ (likely using VS Code Remote $\text{SSH}$—the best way to work\!).
-2.  You have successfully started the **`pigpiod`** daemon using `sudo pigpiod`.
+**Updated Architecture:** This project now uses an Arduino-based approach for more reliable PWM signal reading:
 
-**The RPi's high-speed timing service is now running, waiting to read your signals.**
+1. **Arduino UNO R3**: Reads PWM signals directly from ESC/Receiver on pins 2 & 3
+2. **Raspberry Pi 5**: Receives data from Arduino via USB serial + handles camera capture
 
-The next step is to execute the Python script to confirm your new level converter wiring is working and that the RPi is correctly reading the $\text{PWM}$ signals from the car.
+**No more direct GPIO PWM reading or pigpiod daemon needed!**
 
-### Next Step: Run the Data Logging Script
+### Current Setup Requirements
 
-You need to execute the `control_interface.py` file, specifically calling the `data_logging_example()` function.
+**Hardware:**
+- Arduino UNO R3 connected to RC car's ESC/Receiver PWM signals
+- USB cable connecting Arduino to Raspberry Pi  
+- Camera connected to Raspberry Pi
+- No logic level converter needed (Arduino handles 5V PWM directly)
 
-1.  **Check the Wiring:** Double-check that your new **Logic Level Converter** is wired according to the last guide, ensuring all **HV/LV** and **GND** pins are correctly connected, and the car's **PWM Servo** (Steering) and **PWM Drive** (Throttle) taps are routed through the converter to $\mathbf{BCM 18}$ and $\mathbf{BCM 23}$ respectively.
+**Software:**
+- `pwm_recorder.ino` uploaded to Arduino
+- `integrated_data_collector.py` on Raspberry Pi
 
-2.  **Run the Script:** Since you are already in the correct project directory (`~/EDTH2025/quantum-tracer-il`), run the Python script:
+### Next Step: Test the Arduino-Raspberry Pi Connection
+
+1.  **Check Arduino Connection:** Verify Arduino is connected via USB:
 
     ```bash
-    python3 control_interface.py
+    ls /dev/ttyUSB* /dev/ttyACM*
     ```
 
-3.  **Start Driving and Observe:**
+2.  **Test Arduino Data Stream:** Check that Arduino is sending PWM data:
 
-      * Turn on your $\text{RC}$ transmitter and the car.
-      * The terminal should immediately start printing output like this:
+    ```bash
+    python3 -c "
+    import serial
+    import time
+    ser = serial.Serial('/dev/ttyUSB0', 115200, timeout=1)  # Adjust port as needed
+    time.sleep(2)
+    print('Listening for Arduino data...')
+    for i in range(10):
+        line = ser.readline().decode('utf-8').strip()
+        if line:
+            print(line)
+    ser.close()
+    "
+    ```
 
-| Time | STEER (Normalized) | Raw (Steering $\mu\text{s}$) | THROTTLE (Normalized) | Raw (Throttle Duty %) |
-| :--- | :--- | :--- | :--- | :--- |
-| 170923010.55 | $0.0000$ | $1491 \mu\text{s}$ | $0.0000$ | $0.0 \%$ |
-| 170923010.57 | $0.0000$ | $1491 \mu\text{s}$ | $0.0000$ | $0.0 \%$ |
-| 170923010.59 | $\mathbf{1.0000}$ | $\mathbf{1941 \mu\text{s}}$ | $0.0000$ | $0.0 \%$ |
-| 170923010.61 | $\mathbf{-1.0000}$ | $\mathbf{1041 \mu\text{s}}$ | $\mathbf{0.5000}$ | $\mathbf{35.0 \%}$ |
+3.  **Run Data Collection:** Start recording episodes:
+
+    ```bash
+    # Record a 60-second episode
+    python3 src/record/integrated_data_collector.py --episode-duration 60
+    ```
+
+### Expected Arduino Data Output
+
+While the Arduino data collection is running, you should see PWM data like this:
+
+```
+DATA,4001,0.0723,0.1525,1528,108,21296,1012
+DATA,4035,0.0496,0.1525,1516,108,21292,1012
+DATA,4068,0.0723,0.1525,1528,108,21296,1012
+```
+
+**Data Format:** `DATA,timestamp,steering_normalized,throttle_normalized,steering_raw_us,throttle_raw_us,steering_period_us,throttle_period_us`
 
 ### What to Test and Verify
 
-While the script is running, move the steering wheel and throttle trigger to confirm the readings:
+Move your RC transmitter controls to verify the data:
 
-| Action | Expected Steering Output | Expected Throttle Output |
+| Action | Expected Steering | Expected Throttle |
 | :--- | :--- | :--- |
-| **Steering Wheel Center** | Normalized: $\approx \mathbf{0.00}$ (Raw: $\approx 1491 \mu\text{s}$) | Normalized: $\mathbf{0.00}$ (Raw: $\mathbf{0.0 \%}$ Duty) |
-| **Steering Wheel Full Right**| Normalized: $\approx \mathbf{1.00}$ (Raw: $\approx 1959 \mu\text{s}$) | Normalized: $\mathbf{0.00}$ (Raw: $\mathbf{0.0 \%}$ Duty) |
-| **Throttle Pulled Halfway** | Normalized: $\approx \mathbf{0.00}$ (Raw: $\approx 1491 \mu\text{s}$) | Normalized: $\approx \mathbf{0.50}$ (Raw: $\\approx 35.0 % $ Duty) |
+| **Steering Wheel Center** | Normalized: ≈ **0.00** | Normalized: **0.00** |
+| **Steering Wheel Full Right** | Normalized: ≈ **+1.00** | Normalized: **0.00** |
+| **Steering Wheel Full Left** | Normalized: ≈ **-1.00** | Normalized: **0.00** |
+| **Throttle Forward** | Normalized: ≈ **0.00** | Normalized: ≈ **0.50-1.00** |
 
-Once you see these numbers tracking your physical movements accurately, you have successfully implemented the data capture system\! You can then pipe this output to a `.csv` file alongside your camera feed to begin training your ACT policy.
+Once you see these numbers tracking your physical movements accurately in the Arduino serial data, you have successfully implemented the PWM capture system! The integrated data collector will synchronize this with camera frames for training data.

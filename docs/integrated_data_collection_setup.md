@@ -1,5 +1,13 @@
 # RC Car Data Collection Setup Instructions
 
+## Architecture Overview
+
+**Current Setup:** Arduino-based PWM reading with Raspberry Pi data coordination
+
+- **Arduino UNO R3**: Reads PWM signals directly from ESC/Receiver, sends via USB serial
+- **Raspberry Pi**: Receives Arduino data + captures camera frames + coordinates episode recording
+- **No direct GPIO PWM reading** - Arduino handles all PWM signal processing
+
 ## Hardware Setup
 
 ### Arduino UNO R3 Connections
@@ -8,13 +16,15 @@ ESC/Receiver -> Arduino
 Steering PWM  -> Pin 2 (Digital, Interrupt capable)
 Throttle PWM  -> Pin 3 (Digital, Interrupt capable) 
 GND          -> GND
-+5V          -> 5V (if needed)
++5V          -> 5V (if needed for power)
 ```
 
 ### Raspberry Pi Connections
 - USB Camera (or CSI camera)
-- USB connection to Arduino UNO R3
+- USB connection to Arduino UNO R3 (for data)
 - Power supply
+
+**Note:** No logic level converter needed - Arduino handles 5V PWM signals directly.
 
 ## Software Requirements
 
