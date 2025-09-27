@@ -33,7 +33,7 @@ def cb_func(chip, gpio, level, tick):
             high_time = (tick - last_rise) / 1_000_000.0
 
 # Callback registrieren für beide Flanken
-cb = lgpio.callback(h, THROTTLE_PIN, lgpio.BOTH_EDGES, cb_func)
+lgpio.gpio_claim_alert(h, THROTTLE_PIN, lgpio.BOTH_EDGES, cb_func)
 
 try:
     while True:
@@ -47,5 +47,4 @@ try:
 except KeyboardInterrupt:
     pass
 finally:
-    cb.cancel()
     lgpio.gpiochip_close(h)
