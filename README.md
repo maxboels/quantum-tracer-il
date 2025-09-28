@@ -158,6 +158,76 @@ if __name__ == '__main__':
 python3 control_interface.py
 ```
 
+## Network Testing and Remote Inference Setup
+
+For remote inference (running ML models on your laptop while the Pi captures data), you need to test and verify network communication between your Raspberry Pi and laptop.
+
+### 5.1 Network Test Overview
+
+The network testing setup allows you to:
+- Verify reliable communication between Pi and laptop
+- Test camera frame transmission at 640x480 resolution
+- Validate image encoding/decoding pipeline
+- Ensure robust data transfer for real-time inference
+
+### 5.2 Running Network Tests
+
+**Step 1: Start the test server on your laptop:**
+```bash
+# On your laptop
+cd /path/to/your/project/src/network
+python3 test_server_laptop_fixed.py --port 8889
+```
+
+The server will display your laptop's IP address (e.g., `192.168.1.33`).
+
+**Step 2: Run the test client on your Raspberry Pi:**
+```bash
+# On your Raspberry Pi
+cd /home/raspberrypi/EDTH2025/quantum-tracer-il/src/network
+python3 test_client_fixed_v2.py
+```
+
+Enter your laptop's IP address when prompted.
+
+### 5.3 Test Sequence
+
+The client performs three tests automatically:
+
+1. **Basic Connection Test**: Verifies socket communication with JSON messages
+2. **Camera Test**: Confirms camera capture works (640x480 resolution)
+3. **Frame Sending Test**: Tests large image data transfer (~33KB per frame)
+
+### 5.4 Expected Results
+
+**Successful test output:**
+```
+✅ Basic connection test PASSED
+✅ Camera test PASSED  
+✅ Frame sending test PASSED
+🎉 ALL TESTS PASSED! Network communication is working.
+```
+
+**Network specifications:**
+- **Image resolution**: 640x480 (VGA)
+- **Compression**: JPEG quality 60%
+- **Frame size**: ~33KB per frame
+- **Transfer reliability**: Robust with 1MB socket buffers and 30s timeouts
+
+### 5.5 Remote Inference Server
+
+Once network tests pass, you can run the full remote inference system:
+
+**On laptop (inference server):**
+```bash
+python3 src/network/remote_inference_server.py --dummy-model --port 8888
+```
+
+**On Raspberry Pi (with remote inference enabled):**
+```bash
+python3 src/record/integrated_data_collector.py --remote-inference --server-ip 192.168.1.33
+```
+
 ---
 
 ## Safety Reminders
@@ -166,6 +236,7 @@ python3 control_interface.py
 - ⚠️ Turn OFF the RC transmitter during autonomous control phase
 - ⚠️ Ensure proper grounding between all components
 - ⚠️ Test in a safe, controlled environment
+- ⚠️ Verify network connectivity before running remote inference
 
 ## Troubleshooting
 
